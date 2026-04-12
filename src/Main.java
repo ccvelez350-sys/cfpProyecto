@@ -3,40 +3,6 @@ import java.nio.file.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-class Producto {
-
-    String id, nombre;
-    double precio;
-    int cantidadVendida = 0;
-
-    Producto(String id, String n, double p) {
-        this.id = id;
-        this.nombre = n;
-        this.precio = p;
-    }
-
-    public String getId() {
-        return id;
-    }
-}
-
-class Vendedor {
-
-    String tipoDoc, numDoc, nombres, apellidos;
-    double ventasTotales = 0.0;
-
-    Vendedor(String td, String nd, String n, String a) {
-        this.tipoDoc = td;
-        this.numDoc = nd;
-        this.nombres = n;
-        this.apellidos = a;
-    }
-
-    public String getNumDoc() {
-        return numDoc;
-    }
-}
-
 public class Main {
 
     public static void main(String[] args) {
